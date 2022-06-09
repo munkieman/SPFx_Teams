@@ -1,0 +1,47 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.2/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.2",
+    "packageName": "SpFxTeamsTogetherWebPart",
+    "id": "bc9eafff-6a20-41f9-b171-5173e28c2291",
+    "version": "0.1",
+    "developer": {
+      "name": "Jason Clark",
+      "websiteUrl": "https://products.office.com/en-us/sharepoint/collaboration",
+      "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "termsOfUseUrl": "https://www.microsoft.com/en-us/servicesagreement"
+    },
+    "name": {
+      "short": "SPFx Teams Together"
+    },
+    "description": {
+      "short": "SPFx Teams Together",
+      "full": "SPFx Teams Together"
+    },
+    "icons": {
+      "outline": "bc9eafff-6a20-41f9-b171-5173e28c2291_outline.png",
+      "color": "bc9eafff-6a20-41f9-b171-5173e28c2291_color.png"
+    },
+    "accentColor": "#004578",
+    "configurableTabs": [
+      {
+        "configurationUrl": "https://{teamSiteDomain}{teamSitePath}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/teamshostedapp.aspx%3FopenPropertyPane=true%26teams%26componentId=bc9eafff-6a20-41f9-b171-5173e28c2291%26forceLocale={locale}",
+        "canUpdateConfiguration": true,
+        "scopes": [
+          "team"
+        ]
+      }
+    ],
+    "validDomains": [
+      "*.login.microsoftonline.com",
+      "*.sharepoint.com",
+      "*.sharepoint-df.com",
+      "spoppe-a.akamaihd.net",
+      "spoprod-a.akamaihd.net",
+      "resourceseng.blob.core.windows.net",
+      "msft.spoppe.com"
+    ],
+    "webApplicationInfo": {
+      "resource": "https://{teamSiteDomain}",
+      "id": "00000003-0000-0ff1-ce00-000000000000"
+    }
+  }
